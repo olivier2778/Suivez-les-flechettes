@@ -1,0 +1,23 @@
+
+header {
+  padding-top: 3vw ;
+}
+ 
+ .image_background {
+  background-image: url('images/image0.jpg') ;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position: top;
+  background-size:  100% auto ;
+  /*width: 100vw;*/
+  } 
+
+  .space_10 {
+    height: 50vw;
+  }
+ 
+
+  
+
+
+  
