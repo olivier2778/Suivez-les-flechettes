@@ -2,20 +2,80 @@
 header {
   padding-top: 3vw ;
 }
+
+.color_page {
+  background-color: rgb(104, 92, 87);
+}   
  
  .image_background {
-  background-image: url('images/image0.jpg') ;
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position: top;
-  background-size:  100% auto ;
-  /*width: 100vw;*/
-  } 
+    background-image: url('images/image0.jpg') ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: top;
+    background-size:  100% auto ;
+  }
+  
+  .nav_specif {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right : 5% ;
+    padding-top : 0 ;
+    margin-top : 0 ;
+  }  
+  
+  .text_3d {
+    text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    color: #d8ad1f;
+    font-weight:lighter;
+    text-align : center ;
+    }    
 
-  .space_10 {
+  
+  .text_p1 {
+    padding: 5% 3% 3% 3%;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    color : white;    
+    font-size: 0.95em ;   
+  }  
+
+  .text_ref1 {    
+    margin: -5vh 0 0 0;
+    font-size: 3vh;    
+    background-color : green;
+    padding: 1vh 3% 1vh 3%;
+    box-shadow: 10px 5px 5px rgb(49, 47, 47); 
+    border : 2px solid  #d8ad1f; 
+    border-radius: 8px;    
+  }  
+
+  .size_0 {
     height: 50vw;
   }
- 
+  
+  .size_1 {
+    font-size: 8vw;
+    padding-top: 2vh ;
+  }
+    
+  .size_2 {
+     font-size: 4vw;
+     padding: 22vw 0 0 50vw ;
+  }
+
+  .size_3 {
+    padding: 3vh 0 5vh 0 ;
+  }
+
+  .card_size_1 {
+    margin : 0 2vw 0 2vw ;
+  }
+
+  .card_border_color {
+    border-color: transparent;
+  } 
+
+    
 
   
 
