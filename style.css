@@ -1,4 +1,8 @@
 
+body {
+  font-family:"Kalam", Arial, Helvetica, sans-serif;
+}
+
 header {
   padding-top: 3vw ;
 }
@@ -24,39 +28,33 @@ header {
   }  
   
   .text_3d {
-    text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
-    font-family:"Kalam", Arial, Helvetica, sans-serif;
+    text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;    
     color: #d8ad1f;
     font-weight:lighter;
     text-align : center ;
     }    
-
   
   .text_p1 {
-    padding: 5% 3% 3% 3%;
-    font-family: "Kalam", Arial, Helvetica, sans-serif;
+    padding: 5% 3% 3% 3%;    
     color : white;    
-    font-size: 0.95em ;   
+    font-size: 1.05em ;   
+  }  
+
+  .text_ref {    
+    font-size: 4vh;    
+    background-color : green;
+    padding: 1vh 3% 1vh 3%;
+    box-shadow: 10px 5px 5px rgb(49, 47, 47); 
+    border : 2px solid  #d8ad1f; 
+    border-radius: 8px;    
   }  
 
   .text_ref1 {    
-    margin: -5vh 0 0 0;
-    font-size: 3vh;    
-    background-color : green;
-    padding: 1vh 3% 1vh 3%;
-    box-shadow: 10px 5px 5px rgb(49, 47, 47); 
-    border : 2px solid  #d8ad1f; 
-    border-radius: 8px;    
+    margin-top: -5vh;    
   }  
   
   .text_ref2 {    
-    margin: -2vh 0 0 0;
-    font-size: 3vh;    
-    background-color : green;
-    padding: 1vh 3% 1vh 3%;
-    box-shadow: 10px 5px 5px rgb(49, 47, 47); 
-    border : 2px solid  #d8ad1f; 
-    border-radius: 8px;    
+    margin-top: -2vh;     
   }
 
   .size_0 {
@@ -64,12 +62,12 @@ header {
   }
   
   .size_1 {
-    font-size: 8vw;
+    font-size: 9vw;
     padding-top: 2vh ;
   }
     
   .size_2 {
-     font-size: 4vw;
+     font-size: 5vw;
      padding: 22vw 0 0 50vw ;
   }
 
@@ -78,12 +76,42 @@ header {
   }
 
   .size_4 {
-    padding: 20px 0 20px 0 ;
+    padding: 20px 0 ;
     margin : 4% ;    
   }
 
+  .size_12 {
+    margin: 2vw 3vw 0 3vw  ;
+  }
+
+  .size_13 {
+    margin: 10vw 3vw 0 3vw  ;
+  }
+
+  .size_c {    
+    padding : 2vw 2vw 1vw 2vw ;
+    background-color: rgba(141, 127, 120, 0.658);
+    box-shadow: 6px 3px 3px rgb(209, 202, 202); 
+    border : 1px solid  rgb(158, 141, 133); 
+    border-radius: 8px;   
+    color : white;    
+    font-size: 1.05em ; 
+  }
+
   .card_size_1 {
-    margin : 0 2vw 0 2vw ;
+    margin : 0 2vw;
+  }
+
+  .card_size_2 {
+    margin : 2vw 3vw 0 3vw ;
+  }  
+
+  .card_title_color {
+    color: #d8ad1f;
+  }
+
+  .card_font {    
+    font-weight: bold;
   }
 
   .card_border_color {
