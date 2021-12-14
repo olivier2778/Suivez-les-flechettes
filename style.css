@@ -21,12 +21,12 @@ header {
   
   .nav_specif {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     padding-right : 5% ;
     padding-top : 0 ;
     margin-top : 0 ;
-  }  
-  
+}  
+
   .text_3d {
     text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;    
     color: #d8ad1f;
