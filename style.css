@@ -1,15 +1,14 @@
 
 body {
+  background-color: rgb(104, 92, 87);
   font-family:"Kalam", Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 header {
   padding-top: 3vw ;
 }
-
-.color_page {
-  background-color: rgb(104, 92, 87);
-}   
  
  .image_background {
     background-image: url('images/image0.jpg') ;
@@ -40,7 +39,7 @@ header {
     font-size: 1.05em ;   
   }  
 
-  .text_ref {    
+  .text_ref0 {    
     font-size: 4vh;    
     background-color : green;
     padding: 1vh 3% 1vh 3%;
@@ -55,6 +54,16 @@ header {
   
   .text_ref2 {    
     margin-top: -2vh;     
+  }
+
+  .text_ref3 {    
+    padding : 2vw 2vw 1vw 2vw ;
+    background-color: rgba(141, 127, 120, 0.658);
+    box-shadow: 6px 3px 3px rgb(209, 202, 202); 
+    border : 1px solid  rgb(158, 141, 133); 
+    border-radius: 8px;   
+    color : white;    
+    font-size: 1.05em ; 
   }
 
   .size_0 {
@@ -80,24 +89,14 @@ header {
     margin : 4% ;    
   }
 
-  .size_12 {
-    margin: 2vw 3vw 0 3vw  ;
-  }
-
-  .size_13 {
+  .size_5 {
     margin: 10vw 3vw 0 3vw  ;
   }
 
-  .size_c {    
-    padding : 2vw 2vw 1vw 2vw ;
-    background-color: rgba(141, 127, 120, 0.658);
-    box-shadow: 6px 3px 3px rgb(209, 202, 202); 
-    border : 1px solid  rgb(158, 141, 133); 
-    border-radius: 8px;   
-    color : white;    
-    font-size: 1.05em ; 
-  }
-
+  .size_6 {
+    margin: 2vw 3vw 0 3vw  ;
+  } 
+  
   .card_size_1 {
     margin : 0 2vw;
   }
@@ -131,6 +130,18 @@ header {
   width: 100%;
   height: 100%;
 }
+
+
+.colorForm {  
+  color : rgb(46, 44, 44) ; 
+}
+
+
+.container-fluid { 
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 
     
