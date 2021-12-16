@@ -15,13 +15,13 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet" />
 </head>
 
-<!-- Définition image et couleur de fond de la page -->
+<!-- Définition couleur de fond de la page -->
 
 <div class="container-fluid">
 
     <body>
         <header>
-            <!-- Définition de la barre de navigation -->
+            <!-- Barre de navigation -->
             <nav class="navbar navbar-expand-sm bg-transparent navbar-dark nav_specif">
                 <div class="container-fluid">
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -46,6 +46,7 @@
         </header>
 
         <main>
+            <!-- slogan de page -->
             <div class="row">
                 <div class="col">
                     <div class="text_3d">
@@ -54,43 +55,41 @@
                 </div>
             </div>
 
-            <div class="row size_13">
-                <div class="col size_c">
-
+            <div class="row size_5">
+                <div class="col text_ref3">
                     <p>Merci de remplir les champs que vous souhaitez pour nous laisser votre message : </p>
-
                     <div class="colorForm">
-
                         <div class="row g-3 mb-3">
+                            <div class="col-sm">
+                                <select class="form-select">
+                                    <option>Monsieur</option>
+                                    <option>Madame</option>
+                                </select>
+                            </div>
                             <div class="col-sm">
                                 <input type="text" class="form-control" placeholder="Prénom" aria-label="Prénom">
                             </div>
                             <div class="col-sm">
                                 <input type="text" class="form-control" placeholder="Nom" aria-label="Nom">
                             </div>
-                            <div class="col-sm">
-                                <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
-                            </div>
                         </div>
-
                         <div class="row g-3 mb-3">
                             <div class="col-lg">
-                                <input type="text" class="form-control" placeholder="Telephone" aria-label="Telephone">
+                                <input type="text" class="form-control" placeholder="Mail" aria-label="Mail">
                             </div>
                             <div class="col-lg">
-                                <input type="text" class="form-control" placeholder="Adresse Mail"
-                                    aria-label="Adresse Mail">
+                                <input type="text" class="form-control" placeholder="Téléphone" aria-label="Téléphone">
                             </div>
                         </div>
-
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control" placeholder="Votre commentaire" id="floatingTextarea2"
-                                style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Votre commentaire</label>
+                        <div class="row g-3 mb-3">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Votre commentaire" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Votre commentaire</label>
+                            </div>
                         </div>
-
                     </div>
-
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                 </div>
             </div>
 
