@@ -34,15 +34,15 @@ header {
     }    
   
   .text_p1 {
-    padding: 5% 3% 3% 3%;    
+    padding: 5% 0 3% 0;    
     color : white;    
     font-size: 1.05em ;   
   }  
 
   .text_ref0 {    
-    font-size: 4vh;    
+    font-size: 3vh;    
     background-color : green;
-    padding: 1vh 3% 1vh 3%;
+    padding: 1vh 0vh;
     box-shadow: 10px 5px 5px rgb(49, 47, 47); 
     border : 2px solid  #d8ad1f; 
     border-radius: 8px;    
@@ -71,8 +71,7 @@ header {
   }
   
   .size_1 {
-    font-size: 9vw;
-    padding-top: 2vh ;
+    font-size: 9vw;   
   }
     
   .size_2 {
@@ -90,15 +89,24 @@ header {
   }
 
   .size_5 {
-    margin: 10vw 3vw 0 3vw  ;
+    margin: 2vw 3vw 1vw 3vw  ;
+    padding-left: 5vw;  
   }
 
   .size_6 {
     margin: 2vw 3vw 0 3vw  ;
   } 
+
+  .size_7 {
+    margin: 10vw 3vw 0 3vw  ;       
+  }
+
+  .size_8 {
+    padding-left: 5vw  ;       
+  }
   
   .card_size_1 {
-    margin : 0 2vw;
+    margin : 0 0;
   }
 
   .card_size_2 {
